@@ -1,0 +1,326 @@
+body, html{
+    height: 100%;
+    color: #ffffff;
+    background-image: linear-gradient(#0a2345, #010103);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Area Stylesheet */
+header{
+    padding-top: 64px;
+}
+.figure{
+    margin-bottom: 0px;
+}
+.figure img{
+    margin-bottom: 0px;
+}
+.menu{
+    padding: 20px 0px;
+}
+.menu a i{
+    color: #2a5ea4;
+}
+.menu a i:hover{
+    color: #ff3334;
+    transition: .5s;
+}
+
+
+
+/* Hero Area Stylesheet */
+.hero-area{
+    margin-top: 178px;
+}
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 32px;
+}
+.logo-text{
+    color: #2a5da3;
+}
+.hero p{
+    color: #2e66b2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 72px;
+}
+a.btn-outline-coeluso{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 0;
+    padding: 25px 35px;
+    border-radius: 30px;
+    border: 2px solid #153b6d;
+    transition: 1s;
+}
+a.btn-outline-coeluso:hover{
+    background: #ff3334;
+    border: none;
+    border: 2px solid #ff3334;
+    transition: 1s;
+}
+
+
+
+/* Intro Area Stylesheet */
+.intro-area{
+    height: 899px;
+    background-image: url(img/intro-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 72px;
+}
+
+
+
+/* Headphone Area Stylesheet */
+.headphone-area{
+    background-image: url(img/headphone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 568px;
+}
+.headphone{
+    margin-top: 110px;
+    margin-left: 30px;
+}
+.headphone h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 48px;
+}
+.headphone p{
+    color: #66778e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 54px;
+}
+
+
+
+/* Feature Area Stylesheet */
+.feature-area{
+    height: 1169px;
+    background-image: url(img/feature-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 144px;
+}
+.feature{
+    margin-bottom: 144px;
+}
+.feature h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 72px;
+}
+.speaker, .activity{
+    margin-right: 84px;
+}
+.speaker figure, .activity figure, .headphones figure, .cd figure{
+    margin-bottom: 24px;
+}
+.speaker h4, .activity h4, .headphones h4, .cd h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.speaker p, .activity p, .headphones p, .cd p{
+    color: #66778e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 84px;
+}
+.headphones, .cd{
+    margin-left: 84px;
+}
+
+
+
+/* About Area Stylesheet */
+.about-area{
+    height: 709px;
+    background-image: url(img/about-phone.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.about figure{
+    margin-bottom: 60px;
+}
+.about h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 48px;
+}
+.about p{
+    color: #66778e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+
+/* Testimonial Area Stylesheet */
+.testimonial-area{
+    height: 586px;
+    background-image: url(img/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-bottom: 144px;
+}
+.testimonial{
+    margin: 0 124px;
+}
+.testimonial p{
+    color: #66778e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 72px;
+}
+.testimonial h6{
+    color: #213a61;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
+.testimonial figure{
+    margin-right: 20px;
+}
+.user{
+    color: #66778e; 
+}
+.slider-indicators{
+    margin-top: 72px;
+}
+.slider-indicators li {
+    width: 11px;
+    height: 11px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid #335a95;
+    display: inline-block;
+    margin: 0 5px;
+    display: inline-block;
+}
+.slider-indicators li.active {
+    background-color: #335a95;
+}
+
+
+/* Download Area Stylesheet */
+.download-area{
+    height: 1169px;
+    background-image: url(img/download-app.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.download{
+    margin: 0 216px;
+}
+.download h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 54px;
+}
+.download p{
+    color: #66778e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.download a{
+    margin-top: 820px;
+}
+
+
+
+/* Separetor Area Stylesheet */
+hr{
+    border-top: 1px solid #66778e !important;
+    opacity: .3;
+    margin: 0;
+}
+
+
+
+/* Footer Area Stylesheet */
+footer{
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+.navbar{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #14396a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+}
+.navbar a:hover{
+    color: #ff3334;
+    text-decoration: none;
+    transition: 1s;
+}
+.copyright p{
+    color: #14396a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
